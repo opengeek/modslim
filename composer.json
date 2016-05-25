@@ -1,0 +1,23 @@
+{
+    "name": "opengeek/modslim",
+    "description": "A project for routing a MODX application through Slim 3.x",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jason Coward",
+            "email": "jason@opengeek.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "slim/slim": "^3.4",
+        "php-di/slim-bridge": "^1.0",
+        "phpfastcgi/slim-adapter": "^0.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "OpenGeek\\MODSlim\\" : ["src/", "tests/"]
+        }
+    }
+}
